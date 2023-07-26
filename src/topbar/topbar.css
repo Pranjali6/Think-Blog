@@ -4,6 +4,7 @@
     background-color: white;
     position: sticky;
     top: 0;
+   /*makes the top bar stay in same place*/
     display: flex;
     align-items: center;
     z-index: 999;
@@ -13,6 +14,8 @@
   .topLeft,
   .topRight {
     flex: 3;
+    /*left and right are 3 units top center is 6 units in total
+    /*to move them to the left and right*/
     display: flex;
     align-items: center;
     justify-content: center;
