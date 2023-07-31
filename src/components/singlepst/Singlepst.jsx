@@ -24,7 +24,7 @@ export default function Singlepst() {
             Author:
             <b className="singlePostAuthor">
               <Link className="link" to="/posts?username=Pranjali">
-                pranjali
+                Pranjali Sharma
               </Link>
             </b>
           </span>
