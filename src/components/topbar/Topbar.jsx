@@ -29,6 +29,7 @@ export default function Topbar() {
         </ul>
       </div>
       <div className="topRight">
+        {/*if a user is present show this image in profile picture */}
         {user ? (
           <Link className="link" to="/settings">
             <img
